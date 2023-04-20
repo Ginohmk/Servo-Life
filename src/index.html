@@ -4,9 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+
     <title>Home-Servo Life</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="flex justify-between items-center py-10 px-10">
+      <section class="flex justify-between items-center gap-36">
+        <div>
+          <span
+            class="text-primary_color cursor-pointer font-bold text-2xl font-Playfair"
+            >Servo Life</span
+          >
+        </div>
+
+        <ul class="flex items-center justify-center gap-5 text-sm">
+          <li class="cursor-pointer font-normal">Plans</li>
+          <li class="cursor-pointer font-normal">Member Resources</li>
+          <li class="cursor-pointer font-normal">Brokers & Providers</li>
+          <li class="cursor-pointer font-normal">About us</li>
+          <li class="cursor-pointer font-normal">Contact us</li>
+        </ul>
+      </section>
+
+      <button
+        class="text-sm font-normal border px-4 py-1.5 rounded-full border-primary_color"
+      >
+        Find a Doctor
+      </button>
+    </nav>
+  </body>
 </html>
