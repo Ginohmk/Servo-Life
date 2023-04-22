@@ -15,6 +15,9 @@ module.exports = {
     height: {
       '98vh': '98vh',
     },
+    gridTemplateColumns: {
+      grid_4: 'repeat(auto-fit, minmax(240px, 1fr))',
+    },
     textColor: {
       white: '#ffffff',
       primary_color: '#122182',

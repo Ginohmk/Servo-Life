@@ -544,8 +544,8 @@ video {
   cursor: pointer;
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.grid-cols-grid_4 {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .flex-col {
