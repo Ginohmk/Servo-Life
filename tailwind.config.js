@@ -9,6 +9,9 @@ module.exports = {
     fontFamily: {
       Playfair: ['"Playfair Display"', 'serif'],
     },
+    height: {
+      '98vh': '98vh',
+    },
   },
   plugins: [],
 };
