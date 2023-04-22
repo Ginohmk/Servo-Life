@@ -5,18 +5,21 @@ module.exports = {
     extend: {},
     colors: {
       primary_color: '#122182',
+      my_gray: '#787878',
     },
     fontFamily: {
       Playfair: ['"Playfair Display"', 'serif'],
     },
     width: {
       '90%': '90%',
+      5: '5px',
     },
     height: {
       '98vh': '98vh',
+      110: '110px',
     },
     gridTemplateColumns: {
-      grid_4: 'repeat(auto-fit, minmax(240px, 1fr))',
+      grid_sizer: 'repeat(auto-fit, minmax(240px, 1fr))',
     },
     textColor: {
       white: '#ffffff',
