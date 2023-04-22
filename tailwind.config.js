@@ -12,6 +12,12 @@ module.exports = {
     height: {
       '98vh': '98vh',
     },
+    textColor: {
+      white: '#ffffff',
+    },
+    boxShadow: {
+      primary_shadow: '0px 4px 58px rgba(18, 33, 130, 0.66)',
+    },
   },
   plugins: [],
 };
