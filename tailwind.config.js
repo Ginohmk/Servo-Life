@@ -6,6 +6,7 @@ module.exports = {
     colors: {
       primary_color: '#122182',
       my_gray: '#787878',
+      white: '#ffffff',
     },
     fontFamily: {
       Playfair: ['"Playfair Display"', 'serif'],
@@ -13,13 +14,17 @@ module.exports = {
     width: {
       '90%': '90%',
       5: '5px',
+      250: '250px',
+      16: '16px',
     },
     height: {
       '98vh': '98vh',
       110: '110px',
+      15.56: '15.56px',
     },
     gridTemplateColumns: {
       grid_sizer: 'repeat(auto-fit, minmax(240px, 1fr))',
+      grid_right_larger: '1fr 2fr',
     },
     textColor: {
       white: '#ffffff',
