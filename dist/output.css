@@ -797,6 +797,10 @@ video {
   gap: 3.5rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .self-end {
   align-self: flex-end;
 }
