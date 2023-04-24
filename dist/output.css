@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: currentColor;
+  border-color: #e5e7eb;
   /* 2 */
 }
 
@@ -544,6 +544,10 @@ video {
   height: 98vh;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
 .w-16 {
   width: 16px;
 }
@@ -552,8 +556,20 @@ video {
   width: 250px;
 }
 
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
 .w-5 {
   width: 5px;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .w-90\% {
@@ -562,10 +578,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.grid-cols-grid_right_larger {
-  grid-template-columns: 1fr 2fr;
 }
 
 .grid-cols-grid_sizer {
