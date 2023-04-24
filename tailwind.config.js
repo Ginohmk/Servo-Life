@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html,js}'],
+  content: ['./src/**/*.{html,js}', './*.html'],
   theme: {
     extend: {
       colors: {
@@ -10,6 +10,9 @@ module.exports = {
         cardOne: '#B6D0E2',
         cardTwo: '#D2FFD2',
         cardThree: '#FFDCDC',
+      },
+      backgroundImage: {
+        banner: "url('/src/asset/images/banner.png')",
       },
       fontFamily: {
         Playfair: ['"Playfair Display"', 'serif'],
