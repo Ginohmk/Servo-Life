@@ -1,10 +1,14 @@
 # Testing out tailwind Css
 
-This is the project (Servo Life) built with tailwind to capture just desktop view as it is my first try with tailwindcss
+This is the project (Servo Life) built with tailwind to capture **just Desktop** view as it is my first try with tailwindcss
 
 ## Preview Image
 
 ![image](https://user-images.githubusercontent.com/58771507/234090572-dd446c3e-3556-4622-b3c5-fb897953a452.png)
+
+## Live Link
+
+[Live Link](https://ginohmk.github.io/Servo-Life/)
 
 ## Initial setup
 
