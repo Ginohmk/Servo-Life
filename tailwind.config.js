@@ -12,15 +12,20 @@ module.exports = {
         Playfair: ['"Playfair Display"', 'serif'],
       },
       width: {
-        '90%': '90%',
+        '95%': '95%',
         5: '5px',
         250: '250px',
         16: '16px',
+        367: '367px',
+        395: '395px',
+        '64_px': '64px',
       },
       height: {
         '98vh': '98vh',
         110: '110px',
         15.56: '15.56px',
+        363: '363px',
+        '64_px': '64px',
       },
       gridTemplateColumns: {
         grid_sizer: 'repeat(auto-fit, minmax(240px, 1fr))',
