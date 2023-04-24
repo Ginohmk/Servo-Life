@@ -25,6 +25,7 @@ module.exports = {
         110: '110px',
         15.56: '15.56px',
         363: '363px',
+        350: '350px',
         '64_px': '64px',
       },
       gridTemplateColumns: {

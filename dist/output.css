@@ -589,6 +589,10 @@ video {
   height: 98vh;
 }
 
+.h-350 {
+  height: 350px;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -705,8 +709,16 @@ video {
   gap: 2rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .self-center {
   align-self: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-full {
