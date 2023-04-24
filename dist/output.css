@@ -657,10 +657,6 @@ video {
   width: 8rem;
 }
 
-.w-395 {
-  width: 395px;
-}
-
 .w-4 {
   width: 1rem;
 }
@@ -837,7 +833,7 @@ video {
 }
 
 .bg-banner {
-  background-image: url('/src/asset/images/banner.png');
+  background-image: url('../src/asset/images/banner.png');
 }
 
 .bg-cover {

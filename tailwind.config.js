@@ -12,7 +12,7 @@ module.exports = {
         cardThree: '#FFDCDC',
       },
       backgroundImage: {
-        banner: "url('/src/asset/images/banner.png')",
+        banner: "url('../src/asset/images/banner.png')",
       },
       fontFamily: {
         Playfair: ['"Playfair Display"', 'serif'],
