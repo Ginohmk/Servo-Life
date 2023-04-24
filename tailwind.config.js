@@ -7,6 +7,9 @@ module.exports = {
         primary_color: '#122182',
         my_gray: '#787878',
         white: '#ffffff',
+        cardOne: '#B6D0E2',
+        cardTwo: '#D2FFD2',
+        cardThree: '#FFDCDC',
       },
       fontFamily: {
         Playfair: ['"Playfair Display"', 'serif'],

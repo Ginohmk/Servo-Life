@@ -577,8 +577,24 @@ video {
   height: 15.56px;
 }
 
+.h-2\/4 {
+  height: 50%;
+}
+
+.h-350 {
+  height: 350px;
+}
+
 .h-363 {
   height: 363px;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-4\/6 {
+  height: 66.666667%;
 }
 
 .h-64_px {
@@ -587,10 +603,6 @@ video {
 
 .h-98vh {
   height: 98vh;
-}
-
-.h-350 {
-  height: 350px;
 }
 
 .w-12 {
@@ -605,6 +617,10 @@ video {
   width: 250px;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-3\/5 {
   width: 60%;
 }
@@ -615,6 +631,10 @@ video {
 
 .w-395 {
   width: 395px;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .w-4\/5 {
@@ -677,8 +697,16 @@ video {
   gap: 2.5rem;
 }
 
+.gap-11 {
+  gap: 2.75rem;
+}
+
 .gap-12 {
   gap: 3rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-3 {
@@ -709,8 +737,8 @@ video {
   gap: 2rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.self-end {
+  align-self: flex-end;
 }
 
 .self-center {
@@ -739,6 +767,16 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.bg-cardOne {
+  --tw-bg-opacity: 1;
+  background-color: rgb(182 208 226 / var(--tw-bg-opacity));
+}
+
+.bg-cardTwo {
+  --tw-bg-opacity: 1;
+  background-color: rgb(210 255 210 / var(--tw-bg-opacity));
+}
+
 .bg-my_gray {
   --tw-bg-opacity: 1;
   background-color: rgb(120 120 120 / var(--tw-bg-opacity));
@@ -747,6 +785,11 @@ video {
 .bg-primary_color {
   --tw-bg-opacity: 1;
   background-color: rgb(18 33 130 / var(--tw-bg-opacity));
+}
+
+.bg-cardThree {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 220 220 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/src\/asset\/images\/banner\.png\'\)\] {
@@ -819,6 +862,18 @@ video {
   padding-left: 0.75rem;
 }
 
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -835,6 +890,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-5xl {
